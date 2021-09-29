@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CountApp from './components/CountUp';
+import TodoApp from './components/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CountApp />
+    <TodoApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
